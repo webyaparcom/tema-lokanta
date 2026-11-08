@@ -1,0 +1,54 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Ev yemeği ve tatlı; görseller temsilîdir.",
+    "en": "Home cooking and sweets; images are representative.",
+    "ar": "أكل منزلي وحلويات؛ الصور تمثيلية."
+  },
+  "keyword": {
+    "tr": "bahçe, lokanta, ev yemeği",
+    "en": "garden, lokanta, home cooking",
+    "ar": "حديقة، مطبخ، أكل منزلي"
+  },
+  "category": "Kurumsal",
+  "name": "Bahçe Lokanta",
+  "domain": "lokanta.webyapar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png",
+  "multi": false,
+  "publishMode": "static",
+  "font": {
+    "body": "lora",
+    "heading": "playfair-display",
+    "ar": {
+      "body": "ibm-plex-sans-arabic",
+      "heading": "noto-kufi-arabic"
+    }
+  },
+  "colorScheme": "auto",
+  "theme_color": "#A95711",
+  "seo": {
+    "noindex": true
+  },
+  "cssTokens": {
+    "--mx-radius-sm": "8px",
+    "--mx-radius-md": "14px",
+    "--mx-radius-lg": "20px",
+    "--mx-radius-xl": "27px"
+  },
+  "icon": "icon.png"
+}
