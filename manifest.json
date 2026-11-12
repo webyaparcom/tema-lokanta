@@ -1,7 +1,7 @@
 {
   "name": "Bahçe Lokanta",
   "short_name": "Bahçe Lokant",
-  "description": "Ev yemeği ve tatlı; görseller temsilîdir.",
+  "description": "Bahçe Lokanta: odun ateşinde ızgara, günlük ev yemekleri ve ev yapımı tatlılar; masa ayırtma. Görseller temsilîdir.",
   "start_url": "/tr/",
   "scope": "/",
   "display": "standalone",

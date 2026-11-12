@@ -30,6 +30,12 @@
           "tr": "(yeni sekmede açılır)",
           "en": "(opens in a new tab)",
           "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "girisHref": "",
+        "girisText": {
+          "tr": "Üye Girişi",
+          "en": "Login",
+          "ar": "تسجيل الدخول"
         }
       },
       "version": "1.0.0",
@@ -766,7 +772,12 @@
         "social_media": false,
         "logo_maxh": "60px",
         "logo_plate": false,
-        "contact_line": "auto"
+        "contact_line": "auto",
+        "logoDark": "",
+        "duzen": "",
+        "slogan": "",
+        "ikinciSutun": "",
+        "iletisimNot": ""
       },
       "version": "1.0.0",
       "icon": "widgets",
@@ -1478,9 +1489,9 @@
         "accentText": "var(--mx-site-primary-contrast, #ffffff)",
         "border": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "cta": {
-          "tr": "Teklif al",
-          "en": "Get a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Masa ayırtın",
+          "en": "Book a table",
+          "ar": "احجز طاولة"
         },
         "cta_url": "teklif-al"
       },
@@ -1533,19 +1544,19 @@
         "bg": "var(--mx-site-bg, #ffffff)",
         "radius": "16px",
         "eyebrow": {
-          "tr": "Ev yemekleri",
-          "en": "Home dishes",
-          "ar": "أطباق منزلية"
+          "tr": "Ev yemekleri · Bahçe",
+          "en": "Home cooking · Garden",
+          "ar": "أطباق منزلية · حديقة"
         },
         "title": {
           "tr": "Bahçede yemek, evde gibi",
           "en": "Dining in the garden, like home",
-          "ar": "أكل في الحديقة كما في المنزل"
+          "ar": "وجبة في الحديقة كأنك في البيت"
         },
         "metin": {
-          "tr": "Bahçe Lokanta, ev yemeği ve tatlı sunar. Görseller temsilidir; metinler kurgusaldır.",
-          "en": "Bahce serves home cooking and sweets. Images are representative and text is fictional.",
-          "ar": "يقدم مطبخ الحديقة أكل منزلي وحلويات. الصور تمثيلية والنصوص افتراضية."
+          "tr": "Günlük ev yemekleri, odun ateşinde ızgara ve ev yapımı tatlılar; bahçede ya da salonda. Görseller temsilî, metinler kurgusaldır.",
+          "en": "Daily home-style dishes, wood-fire grills and house-made desserts, in the garden or the dining room. Images are representative and text is fictional.",
+          "ar": "أطباق منزلية يومية ومشاوي على نار الحطب وحلويات بيتية، في الحديقة أو في الصالة. الصور تمثيلية والنصوص افتراضية."
         },
         "cta1": {
           "tr": "Menü",
@@ -1554,9 +1565,9 @@
         },
         "cta1_url": "hizmetler",
         "cta2": {
-          "tr": "Aile masası",
-          "en": "Family table",
-          "ar": "مائدة العائلة"
+          "tr": "Masa ayırtın",
+          "en": "Book a table",
+          "ar": "احجز طاولة"
         },
         "cta2_url": "teklif-al",
         "scroll_label": {
@@ -1601,9 +1612,9 @@
         "radius": "16px",
         "sure": 1000,
         "title": {
-          "tr": "Ne sunuyoruz?",
-          "en": "What do we serve?",
-          "ar": "ماذا نقدم؟"
+          "tr": "Bu hafta mutfakta ne var?",
+          "en": "What is in the kitchen this week?",
+          "ar": "ماذا في المطبخ هذا الأسبوع؟"
         },
         "description": {
           "tr": "Kurgusal demo verileri.",
@@ -1613,48 +1624,48 @@
       },
       "data": [
         {
-          "deger": 12,
+          "deger": 8,
           "sonek": "",
           "ikon": "restaurant",
           "etiket": {
-            "tr": "İsim",
-            "en": "Names",
-            "ar": "أسماء"
+            "tr": "Günlük çeşit",
+            "en": "Dishes a day",
+            "ar": "أطباق يوميًا"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
             "en": "Fictional demo figure",
-            "ar": "قيمة تجريبية"
+            "ar": "قيمة تجريبية افتراضية"
           }
         },
         {
-          "deger": 120,
-          "sonek": "%",
-          "ikon": "local_fire_department",
+          "deger": 40,
+          "sonek": "",
+          "ikon": "table_restaurant",
           "etiket": {
-            "tr": "Ateşte pişirilen",
-            "en": "Cooked on fire",
-            "ar": "المشوية على النار"
+            "tr": "Masa",
+            "en": "Tables",
+            "ar": "طاولة"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
             "en": "Fictional demo figure",
-            "ar": "قيمة تجريبية"
+            "ar": "قيمة تجريبية افتراضية"
           }
         },
         {
-          "deger": 45,
-          "sonek": " dk",
+          "deger": 13,
+          "sonek": "",
           "ikon": "schedule",
           "etiket": {
-            "tr": "Hazırlık süresi",
-            "en": "Preparation time",
-            "ar": "زمن التجهيز"
+            "tr": "Saat açık",
+            "en": "Hours open a day",
+            "ar": "ساعة عمل يوميًا"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
             "en": "Fictional demo figure",
-            "ar": "قيمة تجريبية"
+            "ar": "قيمة تجريبية افتراضية"
           }
         },
         {
@@ -1662,14 +1673,14 @@
           "sonek": "",
           "ikon": "groups",
           "etiket": {
-            "tr": "Çalışan",
-            "en": "Staff",
-            "ar": "طاقم"
+            "tr": "Mutfak ve salon ekibi",
+            "en": "Kitchen and floor staff",
+            "ar": "فريق المطبخ والصالة"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
             "en": "Fictional demo figure",
-            "ar": "قيمة تجريبية"
+            "ar": "قيمة تجريبية افتراضية"
           }
         }
       ],
@@ -1700,93 +1711,93 @@
           "ar": "المطبخ"
         },
         "title": {
-          "tr": "Ne sunuyoruz?",
-          "en": "What do we serve?",
-          "ar": "ماذا نقدم؟"
+          "tr": "Bu hafta mutfakta ne var?",
+          "en": "What is in the kitchen this week?",
+          "ar": "ماذا في المطبخ هذا الأسبوع؟"
         },
         "description": {
-          "tr": "Ateşten soğana, soğandan tabağa.",
-          "en": "From fire to onion, from onion to plate.",
-          "ar": "من الحطب إلى البصل، ومن البصل إلى الطبق."
+          "tr": "Günün yemekleri her sabah yazılır; ızgara ve ev yemekleri bir arada.",
+          "en": "The dishes of the day are written every morning; grills and home cooking side by side.",
+          "ar": "تُكتب أطباق اليوم كل صباح؛ المشاوي والأطباق المنزلية معًا."
         }
       },
       "data": [
         {
           "icon": "local_fire_department",
           "name": {
-            "tr": "Sıcak servis",
-            "en": "Hot service",
-            "ar": "خدمة ساخنة"
+            "tr": "Izgara",
+            "en": "Grill",
+            "ar": "المشاوي"
           },
           "description": {
-            "tr": "Odun ateşinde ızgara; piştiğinizde servis.",
-            "en": "Grilled over wood fire; served when done.",
-            "ar": "مشوية على نار الحطب؛ تُقدَّم عند جاهزيتها."
+            "tr": "Köfte, tavuk ve sebze odun ateşinde, sipariş üzerine pişer.",
+            "en": "Meatballs, chicken and vegetables cooked to order over a wood fire.",
+            "ar": "كفتة ودجاج وخضار تُشوى على نار الحطب عند الطلب."
           }
         },
         {
           "icon": "restaurant",
           "name": {
-            "tr": "Ana lezzet",
-            "en": "Main dish",
-            "ar": "الطبق الرئيسي"
+            "tr": "Günün yemeği",
+            "en": "Dish of the day",
+            "ar": "طبق اليوم"
           },
           "description": {
-            "tr": "Günün ana yemeği; günlük menü değişir.",
-            "en": "The day’s main dish; the daily menu changes.",
-            "ar": "طبق اليوم الرئيسي؛ يتغير قائمة اليوم."
+            "tr": "Her gün değişen tencere yemeği, pilav ve çorba.",
+            "en": "A home-style pot dish, rice and soup that change every day.",
+            "ar": "طبق قدر وأرز وشوربة تتغير كل يوم."
           }
         },
         {
-          "icon": "icecream",
+          "icon": "eco",
           "name": {
-            "tr": "Ara sıcak",
-            "en": "Starter",
-            "ar": "المقبل"
+            "tr": "Meze ve salata",
+            "en": "Meze and salads",
+            "ar": "المقبلات والسلطات"
           },
           "description": {
-            "tr": "Soğuk başlangıç ve salata seçenekleri.",
-            "en": "Chilled starters and salad options.",
-            "ar": "مقبلات باردة وخيارات السلطة."
+            "tr": "Zeytinyağlılar, soğuk mezeler ve mevsim salataları.",
+            "en": "Olive-oil dishes, cold meze and seasonal salads.",
+            "ar": "أطباق بزيت الزيتون ومقبلات باردة وسلطات موسمية."
           }
         },
         {
-          "icon": "lunch_dining",
+          "icon": "cake",
           "name": {
-            "tr": "Atıştırmalık",
-            "en": "Snack",
-            "ar": "وجبة خفيفة"
+            "tr": "Ev yapımı tatlı",
+            "en": "House-made dessert",
+            "ar": "حلويات بيتية"
           },
           "description": {
-            "tr": "Sıcak içecek yanında atıştırmalık.",
-            "en": "A snack with a hot drink.",
-            "ar": "وجبة خفيفة مع مشروب ساخن."
+            "tr": "Baklava, sütlü tatlı ve günün tatlısı.",
+            "en": "Baklava, milk desserts and the dessert of the day.",
+            "ar": "بقلاوة وحلويات بالحليب وحلوى اليوم."
           }
         },
         {
-          "icon": "local_bar",
+          "icon": "coffee",
           "name": {
-            "tr": "İçecek",
-            "en": "Drink",
-            "ar": "مشروب"
+            "tr": "Çay ve kahve",
+            "en": "Tea and coffee",
+            "ar": "الشاي والقهوة"
           },
           "description": {
-            "tr": "Ev yapımı içecek ve çay seçkisi.",
-            "en": "House-made drinks and tea selection.",
-            "ar": "مشروبات منزلية واخيار الشاي."
+            "tr": "Demlik çay, Türk kahvesi ve ev yapımı limonata.",
+            "en": "Pot-brewed tea, Turkish coffee and house-made lemonade.",
+            "ar": "شاي بالإبريق وقهوة تركية وليمونادة بيتية."
           }
         },
         {
-          "icon": "delivery_dining",
+          "icon": "takeout_dining",
           "name": {
             "tr": "Paket servis",
-            "en": "To-go service",
-            "ar": "خدمة الطلبات الخارجية"
+            "en": "Takeaway",
+            "ar": "الطلبات الخارجية"
           },
           "description": {
-            "tr": "Paket kutusu ve soğuk zincir (demo bilgi).",
-            "en": "To-go box and cold chain (demo info).",
-            "ar": "صندوق للأغراض الخارجية وسلسلة التبريد (معلومات تجريبية)."
+            "tr": "Günün yemekleri paket olarak hazırlanır; ayrıntı telefonda verilir (demo).",
+            "en": "The dishes of the day are packed to go; details are given by phone (demo).",
+            "ar": "تُجهَّز أطباق اليوم للأخذ؛ وتُعطى التفاصيل هاتفيًا (تجريبي)."
           }
         }
       ],
@@ -1814,19 +1825,19 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
         "badge": {
-          "tr": "Nasıl çalışırız?",
-          "en": "How we work",
-          "ar": "كيف نعمل؟"
+          "tr": "Sofranız nasıl kurulur?",
+          "en": "How your meal unfolds",
+          "ar": "كيف تسير وجبتك؟"
         },
         "title": {
-          "tr": "Dört adımda süreç",
-          "en": "Process in four steps",
-          "ar": "العملية في أربع خطوات"
+          "tr": "Masadan tatlıya dört adım",
+          "en": "Four steps from table to dessert",
+          "ar": "أربع خطوات من الطاولة إلى الحلوى"
         },
         "description": {
-          "tr": "İlk görüşmeden teslimata aynı akış.",
-          "en": "The same flow, from first meeting to handover.",
-          "ar": "نفس التيار من أول لقاء إلى التسليم."
+          "tr": "Karşılamadan çaya aynı düzen.",
+          "en": "The same flow from welcome to tea.",
+          "ar": "النظام نفسه من الاستقبال حتى الشاي."
         },
         "accentText": "#ffffff",
         "cardbg": "var(--mx-site-surface, #ffffff)",
@@ -1837,52 +1848,52 @@
           "year": "01",
           "title": {
             "tr": "Karşılama",
-            "en": "Greeting",
-            "ar": "الترحيب"
+            "en": "Welcome",
+            "ar": "الاستقبال"
           },
           "text": {
-            "tr": "Masa ve tercih notu alınır.",
-            "en": "The table and preference note are taken.",
-            "ar": "يُؤخذ جدول وملاحظة التفضيل."
+            "tr": "Masanız ayrıldıysa hazır bekler; değilse bahçede ya da salonda yer buluruz.",
+            "en": "Your table is ready if you booked; otherwise we find you a seat in the garden or the dining room.",
+            "ar": "طاولتك جاهزة إن كنت قد حجزت، وإلا نجد لك مكانًا في الحديقة أو الصالة."
           }
         },
         {
           "year": "02",
           "title": {
-            "tr": "Hazırlık",
-            "en": "Preparation",
-            "ar": "التجهيز"
+            "tr": "Sipariş",
+            "en": "Order",
+            "ar": "الطلب"
           },
           "text": {
-            "tr": "Ateş ve malzeme saati başlar.",
-            "en": "Fire and ingredient time begin.",
-            "ar": "تبدأ نار ومال المواد."
+            "tr": "Günün yemekleri masada anlatılır; alerji ve tercihleriniz not edilir.",
+            "en": "The dishes of the day are explained at the table; allergies and preferences are noted.",
+            "ar": "تُشرح أطباق اليوم على الطاولة، وتُدوَّن الحساسية والتفضيلات."
           }
         },
         {
           "year": "03",
           "title": {
-            "tr": "Sunum",
+            "tr": "Servis",
             "en": "Serving",
-            "ar": "الكشف والطبخ"
+            "ar": "التقديم"
           },
           "text": {
-            "tr": "Yemek sıcak servis edilir.",
-            "en": "The dish is served hot.",
-            "ar": "يُقدَّم الطبق ساخناً."
+            "tr": "Yemekler pişer pişmez sıcak servis edilir.",
+            "en": "Dishes are served hot as soon as they are ready.",
+            "ar": "تُقدَّم الأطباق ساخنة فور نضجها."
           }
         },
         {
           "year": "04",
           "title": {
-            "tr": "Tatlı",
-            "en": "Dessert",
-            "ar": "الحلا"
+            "tr": "Tatlı ve çay",
+            "en": "Dessert and tea",
+            "ar": "الحلوى والشاي"
           },
           "text": {
-            "tr": "Ağız tadına uygun tatlı ve içecek.",
-            "en": "A dessert and drink to your palate.",
-            "ar": "حلوة ومشروب يتناسب مع مذاقك."
+            "tr": "Ev yapımı tatlı ve demlik çayla bitirilir.",
+            "en": "The meal ends with house-made dessert and a pot of tea.",
+            "ar": "تُختتم الوجبة بحلوى بيتية وإبريق شاي."
           }
         }
       ],
@@ -1911,14 +1922,14 @@
         "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
         "accent": "var(--mx-site-primary, #2563eb)",
         "badge": {
-          "tr": "Ekibimiz",
-          "en": "Our team",
-          "ar": "فريقنا"
+          "tr": "Mutfak ve salon",
+          "en": "Kitchen and floor",
+          "ar": "المطبخ والصالة"
         },
         "title": {
-          "tr": "Sizi karşılayan ekip",
-          "en": "The team that welcomes you",
-          "ar": "الفريق الذي يستقبلك"
+          "tr": "Sizi karşılayanlar",
+          "en": "Who welcomes you",
+          "ar": "من يستقبلونك"
         },
         "description": {
           "tr": "Kurgusal demo profiller.",
@@ -1934,40 +1945,40 @@
           "role": {
             "tr": "Şef",
             "en": "Chef",
-            "ar": "شيف"
+            "ar": "الشيف"
           },
           "bio": {
-            "tr": "12 yıl sıcak mutfak.",
-            "en": "12 years of hot kitchen.",
-            "ar": "١٢ عامًا في المَطبخ الساخن."
+            "tr": "Ev yemekleri ve zeytinyağlılarda 12 yıl (kurgusal).",
+            "en": "12 years in home cooking and olive-oil dishes (fictional).",
+            "ar": "12 عامًا في الأطباق المنزلية وأطباق زيت الزيتون (افتراضية)."
           },
           "img": ""
         },
         {
           "name": "Burak Öztürk",
           "role": {
-            "tr": "Ateş başı",
+            "tr": "Izgara ustası",
             "en": "Grill master",
-            "ar": "على النار"
+            "ar": "معلّم الشواء"
           },
           "bio": {
-            "tr": "6 yıl ızgara.",
-            "en": "6 years of grilling.",
-            "ar": "٦ سنوات على المشواة."
+            "tr": "Odun ateşinde ızgarada 6 yıl (kurgusal).",
+            "en": "6 years on the wood-fire grill (fictional).",
+            "ar": "6 سنوات في الشواء على نار الحطب (افتراضية)."
           },
           "img": ""
         },
         {
           "name": "Seda Kaya",
           "role": {
-            "tr": "Servis başı",
-            "en": "Head of service",
-            "ar": "رئیسة الخدمة"
+            "tr": "Salon sorumlusu",
+            "en": "Floor manager",
+            "ar": "مسؤولة الصالة"
           },
           "bio": {
-            "tr": "5 yıl karşılama.",
-            "en": "5 years of reception.",
-            "ar": "٥ سنوات في الاستقبال."
+            "tr": "Karşılama ve masa düzeninde 5 yıl (kurgusal).",
+            "en": "5 years in welcoming guests and table service (fictional).",
+            "ar": "5 سنوات في الاستقبال وتنظيم الطاولات (افتراضية)."
           },
           "img": ""
         }
@@ -1998,14 +2009,14 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "starcolor": "#f59e0b",
         "badge": {
-          "tr": "Müşteri yorumları",
-          "en": "Customer reviews",
-          "ar": "تقييمات العملاء"
+          "tr": "Yorumlar",
+          "en": "Reviews",
+          "ar": "التقييمات"
         },
         "title": {
-          "tr": "Müşterilerimiz ne diyor?",
-          "en": "What our customers say",
-          "ar": "ماذا يقول عملاؤنا؟"
+          "tr": "Misafirlerimiz ne diyor?",
+          "en": "What our guests say",
+          "ar": "ماذا يقول ضيوفنا؟"
         },
         "description": {
           "tr": "Kurgusal demo yorumlar.",
@@ -2019,46 +2030,46 @@
         {
           "name": "Mehmet A.",
           "role": {
-            "tr": "Müşteri",
-            "en": "Customer",
-            "ar": "زبون"
+            "tr": "Misafir",
+            "en": "Guest",
+            "ar": "ضيف"
           },
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Sıcak geldi; porsiyon dengeli.",
-            "en": "It came hot; balanced portion.",
-            "ar": "وجاء ساخناً؛ حصة متوازنة."
+            "tr": "Yemekler sıcak geldi, porsiyonlar dengeliydi; bahçe masası çok rahattı.",
+            "en": "The food arrived hot with balanced portions; the garden table was very comfortable.",
+            "ar": "وصلت الأطباق ساخنة والحصص متوازنة، وكانت طاولة الحديقة مريحة جدًا."
           }
         },
         {
           "name": "Emre Y.",
           "role": {
-            "tr": "Müşteri",
-            "en": "Customer",
-            "ar": "زبون"
+            "tr": "Misafir",
+            "en": "Guest",
+            "ar": "ضيف"
           },
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Sipariş zamanında; servisi hızlı.",
-            "en": "Order on time; fast service.",
-            "ar": "طلب في الوقت؛ خدمة سريعة."
+            "tr": "Izgara tam kıvamındaydı, servis hızlıydı.",
+            "en": "The grill was cooked just right and the service was quick.",
+            "ar": "كان الشواء بنضج مثالي والخدمة سريعة."
           }
         },
         {
           "name": "H. Sezer.",
           "role": {
-            "tr": "Aile",
-            "en": "Family",
-            "ar": "أسرة"
+            "tr": "Aile masası",
+            "en": "Family table",
+            "ar": "طاولة عائلية"
           },
           "rating": 4,
           "img": "",
           "text": {
-            "tr": "Menüsü sade; fiyat net.",
-            "en": "Simple menu; clear price.",
-            "ar": "قائمة بسيطة؛ سعر واضح."
+            "tr": "Çocuklarla gittik; menü sade, fiyatlar net yazılmıştı.",
+            "en": "We went with the kids; the menu was simple and the prices clearly written.",
+            "ar": "ذهبنا مع الأطفال؛ كانت القائمة بسيطة والأسعار مكتوبة بوضوح."
           }
         }
       ],
@@ -2103,19 +2114,19 @@
         "radius": "14px",
         "numara": true,
         "eyebrow": {
-          "tr": "Neyi iyi yaparız?",
-          "en": "What we do well",
-          "ar": "ما نتقنه؟"
+          "tr": "Mutfaktan öne çıkanlar",
+          "en": "From our kitchen",
+          "ar": "من مطبخنا"
         },
         "title": {
-          "tr": "Ne sunuyoruz?",
-          "en": "What do we serve?",
-          "ar": "ماذا نقدم؟"
+          "tr": "Bu hafta mutfakta ne var?",
+          "en": "What is in the kitchen this week?",
+          "ar": "ماذا في المطبخ هذا الأسبوع؟"
         },
         "description": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
-          "en": "Images are representative; this is a setup demo.",
-          "ar": "الصور تمثيلية وهذا عرض تجريبي."
+          "tr": "Görseller temsilîdir; metinler kurgusaldır.",
+          "en": "Images are representative; text is fictional.",
+          "ar": "الصور تمثيلية والنصوص افتراضية."
         },
         "ctaLabel": {
           "tr": "Ayrıntı",
@@ -2126,14 +2137,14 @@
       "data": [
         {
           "baslik": {
-            "tr": "Sıcak servis",
-            "en": "Hot service",
-            "ar": "خدمة ساخنة"
+            "tr": "Izgara",
+            "en": "Grill",
+            "ar": "المشاوي"
           },
           "metin": {
-            "tr": "Odun ateşinde ızgara; piştiğinizde servis.",
-            "en": "Grilled over wood fire; served when done.",
-            "ar": "مشوية على نار الحطب؛ تُقدَّم عند جاهزيتها."
+            "tr": "Köfte, tavuk ve sebze odun ateşinde, sipariş üzerine pişer.",
+            "en": "Meatballs, chicken and vegetables cooked to order over a wood fire.",
+            "ar": "كفتة ودجاج وخضار تُشوى على نار الحطب عند الطلب."
           },
           "img": "restoran-menu-corba.webp",
           "alt": {
@@ -2145,14 +2156,14 @@
         },
         {
           "baslik": {
-            "tr": "Ana lezzet",
-            "en": "Main dish",
-            "ar": "الطبق الرئيسي"
+            "tr": "Günün yemeği",
+            "en": "Dish of the day",
+            "ar": "طبق اليوم"
           },
           "metin": {
-            "tr": "Günün ana yemeği; günlük menü değişir.",
-            "en": "The day’s main dish; the daily menu changes.",
-            "ar": "طبق اليوم الرئيسي؛ يتغير قائمة اليوم."
+            "tr": "Her gün değişen tencere yemeği, pilav ve çorba.",
+            "en": "A home-style pot dish, rice and soup that change every day.",
+            "ar": "طبق قدر وأرز وشوربة تتغير كل يوم."
           },
           "img": "restoran-menu-baklava.webp",
           "alt": {
@@ -2164,14 +2175,14 @@
         },
         {
           "baslik": {
-            "tr": "Ara sıcak",
-            "en": "Starter",
-            "ar": "المقبل"
+            "tr": "Meze ve salata",
+            "en": "Meze and salads",
+            "ar": "المقبلات والسلطات"
           },
           "metin": {
-            "tr": "Soğuk başlangıç ve salata seçenekleri.",
-            "en": "Chilled starters and salad options.",
-            "ar": "مقبلات باردة وخيارات السلطة."
+            "tr": "Zeytinyağlılar, soğuk mezeler ve mevsim salataları.",
+            "en": "Olive-oil dishes, cold meze and seasonal salads.",
+            "ar": "أطباق بزيت الزيتون ومقبلات باردة وسلطات موسمية."
           },
           "img": "restoran-mekan-3.webp",
           "alt": {
@@ -2229,14 +2240,14 @@
         "radius": "14px",
         "showTitle": true,
         "title": {
-          "tr": "Birlikte çalıştığımız kuruluşlar",
-          "en": "Organisations we work with",
-          "ar": "جهات نعمل معها"
+          "tr": "Tedarikçilerimiz",
+          "en": "Our suppliers",
+          "ar": "مورّدونا"
         },
         "description": {
-          "tr": "Kurgusal iş ortağı adları; gerçek bir kuruluşa ait değildir.",
-          "en": "Fictional partner names; they do not belong to a real organisation.",
-          "ar": "أسماء شركاء افتراضية لا تعود إلى جهة حقيقية."
+          "tr": "Kurgusal tedarikçi adları; gerçek bir kuruluşa ait değildir.",
+          "en": "Fictional supplier names; they do not belong to a real organisation.",
+          "ar": "أسماء موردين افتراضية لا تعود إلى جهة حقيقية."
         },
         "listLabel": {
           "tr": "Referans logoları",
@@ -2246,22 +2257,22 @@
       },
       "data": [
         {
-          "name": "Demo Kahvaltı"
-        },
-        {
-          "name": "Demo Çay"
-        },
-        {
-          "name": "Demo Kahvaltı"
-        },
-        {
-          "name": "Demo İçecek"
-        },
-        {
-          "name": "Demo Unlu Mamul"
+          "name": "Demo Çiftlik Sebze"
         },
         {
           "name": "Demo Fırın"
+        },
+        {
+          "name": "Demo Süt Ürünleri"
+        },
+        {
+          "name": "Demo Zeytinyağı"
+        },
+        {
+          "name": "Demo Kasap"
+        },
+        {
+          "name": "Demo Çay Bahçesi"
         }
       ],
       "veri": {
@@ -2304,51 +2315,91 @@
       },
       "data": [
         {
+          "question": {
+            "tr": "Rezervasyon gerekli mi?",
+            "en": "Do I need to book?",
+            "ar": "هل الحجز ضروري؟"
+          },
+          "answer": {
+            "tr": "Hafta içi gerekmez; hafta sonu ve kalabalık gruplar için masa ayırtmanızı öneririz.",
+            "en": "Not on weekdays; for weekends and larger groups we recommend booking a table.",
+            "ar": "ليس في أيام الأسبوع؛ ننصح بحجز طاولة في عطلة نهاية الأسبوع وللمجموعات الكبيرة."
+          },
           "soru": {
-            "tr": "Porsiyonlar ne kadar?",
-            "en": "How large are the portions?",
-            "ar": "ما حجم الحصص?"
+            "tr": "Rezervasyon gerekli mi?",
+            "en": "Do I need to book?",
+            "ar": "هل الحجز ضروري؟"
           },
           "cevap": {
-            "tr": "Kişi sayısına göre değişir; demo metni örnek vermez.",
-            "en": "They vary by number of people; this demo text gives no example.",
-            "ar": "تتغير حسب عدد الأشخاص؛ ولا يعطي هذا النص التجريبي مثالاً."
+            "tr": "Hafta içi gerekmez; hafta sonu ve kalabalık gruplar için masa ayırtmanızı öneririz.",
+            "en": "Not on weekdays; for weekends and larger groups we recommend booking a table.",
+            "ar": "ليس في أيام الأسبوع؛ ننصح بحجز طاولة في عطلة نهاية الأسبوع وللمجموعات الكبيرة."
           }
         },
         {
+          "question": {
+            "tr": "Alerji ve vejetaryen seçenekler var mı?",
+            "en": "Are there allergy and vegetarian options?",
+            "ar": "هل توجد خيارات للحساسية وللنباتيين؟"
+          },
+          "answer": {
+            "tr": "Günün yemekleri masada anlatılır; alerjiniz varsa sipariş verirken belirtin.",
+            "en": "The dishes of the day are explained at the table; tell us about any allergy when ordering.",
+            "ar": "تُشرح أطباق اليوم على الطاولة؛ أخبرنا بأي حساسية عند الطلب."
+          },
           "soru": {
-            "tr": "Çevrimiçi sipariş var mı?",
-            "en": "Are there online orders?",
-            "ar": "هل توجد طلبات عبر الإنترنت?"
+            "tr": "Alerji ve vejetaryen seçenekler var mı?",
+            "en": "Are there allergy and vegetarian options?",
+            "ar": "هل توجد خيارات للحساسية وللنباتيين؟"
           },
           "cevap": {
-            "tr": "Siteden iletişim formuyla yapılır; veri saklanmaz (demo).",
-            "en": "It is done via the site’s contact form; data is not saved (demo).",
-            "ar": "يتم عبر نموذج الاتصال في الموقع؛ لا تُحفظ البيانات (تجريبي)."
+            "tr": "Günün yemekleri masada anlatılır; alerjiniz varsa sipariş verirken belirtin.",
+            "en": "The dishes of the day are explained at the table; tell us about any allergy when ordering.",
+            "ar": "تُشرح أطباق اليوم على الطاولة؛ أخبرنا بأي حساسية عند الطلب."
           }
         },
         {
+          "question": {
+            "tr": "Paket servis yapıyor musunuz?",
+            "en": "Do you do takeaway?",
+            "ar": "هل تقدمون طلبات خارجية؟"
+          },
+          "answer": {
+            "tr": "Günün yemekleri paket olarak hazırlanır; ayrıntılar telefonda verilir (demo bilgi).",
+            "en": "The dishes of the day can be packed to go; details are given by phone (demo information).",
+            "ar": "تُجهَّز أطباق اليوم للأخذ؛ وتُعطى التفاصيل هاتفيًا (معلومة تجريبية)."
+          },
+          "soru": {
+            "tr": "Paket servis yapıyor musunuz?",
+            "en": "Do you do takeaway?",
+            "ar": "هل تقدمون طلبات خارجية؟"
+          },
+          "cevap": {
+            "tr": "Günün yemekleri paket olarak hazırlanır; ayrıntılar telefonda verilir (demo bilgi).",
+            "en": "The dishes of the day can be packed to go; details are given by phone (demo information).",
+            "ar": "تُجهَّز أطباق اليوم للأخذ؛ وتُعطى التفاصيل هاتفيًا (معلومة تجريبية)."
+          }
+        },
+        {
+          "question": {
+            "tr": "Sitedeki görseller ve veriler gerçek midir?",
+            "en": "Are the images and data on the site real?",
+            "ar": "هل الصور والبيانات في الموقع حقيقية؟"
+          },
+          "answer": {
+            "tr": "Hayır; bu bir demo sitedir. Görseller temsilî; adlar, rakamlar ve kişiler kurgusaldır.",
+            "en": "No; this is a demo site. Images are representative; names, figures and people are fictional.",
+            "ar": "لا؛ هذا موقع تجريبي. الصور تمثيلية والأسماء والأرقام والأشخاص افتراضيون."
+          },
           "soru": {
             "tr": "Sitedeki görseller ve veriler gerçek midir?",
             "en": "Are the images and data on the site real?",
-            "ar": "هل الصور والبيانات في الموقع حقيقية?"
+            "ar": "هل الصور والبيانات في الموقع حقيقية؟"
           },
           "cevap": {
-            "tr": "Hayır; bu bir kuruluma örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
-            "en": "No; this is a setup example. Images are representative and names, figures and people are fictional.",
-            "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية."
-          }
-        },
-        {
-          "soru": {
-            "tr": "Fiyatlar nasıl belirlenir?",
-            "en": "How are prices determined?",
-            "ar": "كيف تُحدَّد الأسعار?"
-          },
-          "cevap": {
-            "tr": "İhtiyacınıza göre teklifle belirlenir; genel bir fiyat aralığı demo metninde yer almaz.",
-            "en": "A quote based on your needs sets the price; a general range is not shown in this demo text.",
-            "ar": "يُحدَّد السعر عبر عرض سعر حسب احتياجاتك؛ ولا يُذكر نطاق عام في هذا النص التجريبي."
+            "tr": "Hayır; bu bir demo sitedir. Görseller temsilî; adlar, rakamlar ve kişiler kurgusaldır.",
+            "en": "No; this is a demo site. Images are representative; names, figures and people are fictional.",
+            "ar": "لا؛ هذا موقع تجريبي. الصور تمثيلية والأسماء والأرقام والأشخاص افتراضيون."
           }
         }
       ],
@@ -2406,14 +2457,14 @@
         "errcolor": "var(--mx-color-danger, #b42318)",
         "radius": "14px",
         "title": {
-          "tr": "Teklif isteyin",
-          "en": "Request a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Masa ayırtın",
+          "en": "Book a table",
+          "ar": "احجز طاولة"
         },
         "description": {
-          "tr": "Bilgilerinizi bırakın; en geç iki iş günü içinde dönüş yaparız. Bu form demodur; e-posta istemciniz açılır, veri saklanmaz.",
-          "en": "Leave your details; we reply within two business days. This form is a demo; it opens your e-mail client and stores no data.",
-          "ar": "اترك بياناتك وسنرد خلال يومي عمل. هذا النموذج تجريبي؛ يفتح برنامج البريد لديك ولا يحفظ أي بيانات."
+          "tr": "Tarih, saat ve kişi sayısını yazın; en geç aynı gün içinde dönüş yaparız. Bu form demodur; e-posta istemciniz açılır, veri saklanmaz.",
+          "en": "Write the date, time and number of guests; we reply the same day at the latest. This form is a demo; it opens your e-mail client and stores no data.",
+          "ar": "اكتب التاريخ والوقت وعدد الأشخاص؛ نردّ في اليوم نفسه على الأكثر. هذا النموذج تجريبي؛ يفتح برنامج البريد لديك ولا يتم حفظ أي بيانات."
         },
         "panelTitle": {
           "tr": "Bahçe Lokanta",
@@ -2421,14 +2472,14 @@
           "ar": "Bahçe Lokanta"
         },
         "panelText": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
-          "en": "Images are representative; this is a setup demo.",
-          "ar": "الصور تمثيلية وهذا عرض تجريبي."
+          "tr": "Görseller temsilîdir; metinler kurgusaldır.",
+          "en": "Images are representative; text is fictional.",
+          "ar": "الصور تمثيلية والنصوص افتراضية."
         },
         "address": {
           "tr": "Gürpınar Caddesi No: 41, Şahinbey, Gaziantep (kurgusal adres)",
           "en": "41 Gurpinar Avenue, Sahinbey, Gaziantep (fictional address)",
-          "ar": "شارع غر بير رقم 41، شين بيه، غازي عنتاب (عنوان افتراضي)"
+          "ar": "شارع غوربينار رقم 41، شاهين بي، غازي عنتاب (عنوان افتراضي)"
         },
         "phone": "+90 342 023 01 03",
         "whatsapp": "903420230103",
@@ -2477,9 +2528,9 @@
         },
         "social": [],
         "formTitle": {
-          "tr": "Teklif formu",
-          "en": "Quote form",
-          "ar": "نموذج الطلب"
+          "tr": "Masa ayırtma formu",
+          "en": "Table booking form",
+          "ar": "نموذج حجز طاولة"
         },
         "nameLabel": {
           "tr": "Ad Soyad",
@@ -2510,25 +2561,25 @@
           {
             "id": "a",
             "name": {
-              "tr": "Yeni talep",
-              "en": "New request",
-              "ar": "طلب جديد"
+              "tr": "Masa ayırtma",
+              "en": "Table booking",
+              "ar": "حجز طاولة"
             }
           },
           {
             "id": "b",
             "name": {
-              "tr": "Ölçü ve keşif",
-              "en": "Measure and survey",
-              "ar": "قياس واستقصاء"
+              "tr": "Grup yemeği",
+              "en": "Group meal",
+              "ar": "وجبة جماعية"
             }
           },
           {
             "id": "c",
             "name": {
-              "tr": "Teknik soru",
-              "en": "Technical question",
-              "ar": "سؤال فني"
+              "tr": "Paket sipariş",
+              "en": "Takeaway order",
+              "ar": "طلب خارجي"
             }
           },
           {
@@ -2615,7 +2666,8 @@
           "tr": "Merhaba, web sitenizden yazıyorum.",
           "en": "Hello, I am writing from your website.",
           "ar": "مرحبًا، أكتب إليكم من موقعكم الإلكتروني."
-        }
+        },
+        "formAction": ""
       },
       "data": [],
       "veri": {
@@ -2639,19 +2691,19 @@
           "ar": "Bahçe Lokanta"
         },
         "description": {
-          "tr": "Bahçe Lokanta, ev yemeği ve tatlı sunar. Görseller temsilidir; metinler kurgusaldır.",
-          "en": "Bahce serves home cooking and sweets. Images are representative and text is fictional.",
-          "ar": "يقدم مطبخ الحديقة أكل منزلي وحلويات. الصور تمثيلية والنصوص افتراضية."
+          "tr": "Bahçe Lokanta, ev yemeklerini odun ateşinde ızgarayla buluşturan kurgusal bir demo lokantadır. Menü her sabah yazılır; görseller temsilî, metinler kurgusaldır.",
+          "en": "Bahçe Lokanta is a fictional demo restaurant that brings home-style dishes together with wood-fire grilling. The menu is written every morning; images are representative and text is fictional.",
+          "ar": "بهتشه لوكانتا مطعم تجريبي افتراضي يجمع الأطباق المنزلية والمشاوي على نار الحطب. تُكتب القائمة كل صباح؛ الصور تمثيلية والنصوص افتراضية."
         },
         "name2": {
-          "tr": "Ateş başı",
-          "en": "At the fire",
-          "ar": "عند النار"
+          "tr": "Odun ateşi",
+          "en": "Wood fire",
+          "ar": "نار الحطب"
         },
         "spot2": {
-          "tr": "Ateş ve malzeme aynı mutfakta yürür.",
-          "en": "Fire and ingredients run in the same kitchen.",
-          "ar": "تسير نار والمواد في نفس المطبخ."
+          "tr": "Izgaralar odun ateşinde, sipariş üzerine pişer.",
+          "en": "Grills are cooked to order over a wood fire.",
+          "ar": "تُشوى المشاوي على نار الحطب عند الطلب."
         },
         "icon2": "local_fire_department",
         "name3": {
@@ -2660,9 +2712,9 @@
           "ar": "قائمة اليوم"
         },
         "spot3": {
-          "tr": "Her sabah menü yenilenir; aynı gün yazılır.",
-          "en": "The menu is renewed every morning and written on the same day.",
-          "ar": "تُجدَد القائمة كل صباح وتُكتب في نفس اليوم."
+          "tr": "Menü her sabah yazılır; biten yemekler listeden çıkar.",
+          "en": "The menu is written every morning; dishes that run out are removed.",
+          "ar": "تُكتب القائمة كل صباح، وتُحذف الأطباق التي تنفد."
         },
         "icon3": "schedule",
         "img": "restoran-mekan-1.webp",
@@ -2739,7 +2791,7 @@
         "address": {
           "tr": "Gürpınar Caddesi No: 41, Şahinbey, Gaziantep (kurgusal adres)",
           "en": "41 Gurpinar Avenue, Sahinbey, Gaziantep (fictional address)",
-          "ar": "شارع غر بير رقم 41، شين بيه، غازي عنتاب (عنوان افتراضي)"
+          "ar": "شارع غوربينار رقم 41، شاهين بي، غازي عنتاب (عنوان افتراضي)"
         },
         "mapsUrl": "",
         "waMessage": {
@@ -2753,9 +2805,9 @@
           "ar": "اتصل بنا"
         },
         "callText": {
-          "tr": "Hafta içi 09:00 – 18:00",
-          "en": "Weekdays 09:00 – 18:00",
-          "ar": "أيام الأسبوع 09:00 – 18:00"
+          "tr": "Pzt–Paz 09:00 – 22:00",
+          "en": "Mon–Sun 09:00 – 22:00",
+          "ar": "الاثنين–الأحد 09:00 – 22:00"
         },
         "callBtn": {
           "tr": "Ara",
@@ -2783,9 +2835,9 @@
           "ar": "البريد الإلكتروني"
         },
         "mailText": {
-          "tr": "Teklif ve detaylı sorular için",
-          "en": "For quotes and detailed questions",
-          "ar": "لعروض الأسعار والأسئلة التفصيلية"
+          "tr": "Rezervasyon ve sorularınız için",
+          "en": "For bookings and questions",
+          "ar": "للحجز والاستفسارات"
         },
         "mailBtn": {
           "tr": "E-posta gönder",
@@ -2847,25 +2899,25 @@
         "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "radius": "14px",
         "title": {
-          "tr": "Masaya bekliyoruz",
-          "en": "We are waiting at the table",
-          "ar": "ننتظركم عند المائدة"
+          "tr": "Masanız hazır olsun",
+          "en": "Let us get your table ready",
+          "ar": "لتكن طاولتك جاهزة"
         },
         "text": {
-          "tr": "İki iş günü içinde dönüş yaparız. Bu demo sitede veri saklanmaz.",
-          "en": "We reply within two business days. No data is stored on this demo site.",
-          "ar": "نردّ خلال يومي عمل. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
+          "tr": "Tarih, saat ve kişi sayısını bildirin; masanızı ayıralım. Bu demo sitede veri saklanmaz.",
+          "en": "Tell us the date, time and number of guests and we will reserve your table. No data is stored on this demo site.",
+          "ar": "أخبرنا بالتاريخ والوقت وعدد الأشخاص ونحجز لك طاولة. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
         },
         "btn1Label": {
-          "tr": "Formu doldurun",
-          "en": "Fill the form",
-          "ar": "املأ النموذج"
+          "tr": "Masa ayırtın",
+          "en": "Book a table",
+          "ar": "احجز طاولة"
         },
         "btn1Url": "teklif-al",
         "btn2Label": {
-          "tr": "Hizmetleri gör",
-          "en": "See services",
-          "ar": "شاهد الخدمات"
+          "tr": "Menüyü görün",
+          "en": "See the menu",
+          "ar": "شاهد القائمة"
         },
         "btn2Url": "hizmetler",
         "number": "903420230103",
@@ -2891,9 +2943,9 @@
           "ar": "ساعات العمل"
         },
         "waMessage": {
-          "tr": "Merhaba, Bahçe Lokanta ile iletişime geçmek istiyorum.",
-          "en": "Hello, I would like to get in touch with Bahçe Lokanta.",
-          "ar": "مرحبًا، أودّ التواصل مع Bahçe Lokanta."
+          "tr": "Merhaba, Bahçe Lokanta'da masa ayırtmak istiyorum.",
+          "en": "Hello, I would like to book a table at Bahçe Lokanta.",
+          "ar": "مرحبًا، أودّ حجز طاولة في بهتشه لوكانتا."
         },
         "img": "",
         "alt": {
@@ -2947,7 +2999,7 @@
         "errcolor": "var(--mx-color-danger, #b42318)",
         "radius": "14px",
         "logo_maxh": "52px",
-        "logo_plate": false,
+        "logo_plate": true,
         "about": {
           "tr": "Bahçe Lokanta demo temadır; içerik kurgusaldır.",
           "en": "Bahçe Lokanta is a demo theme; the content is fictional.",
@@ -3056,7 +3108,7 @@
         "address": {
           "tr": "Gürpınar Caddesi No: 41, Şahinbey, Gaziantep (kurgusal adres)",
           "en": "41 Gurpinar Avenue, Sahinbey, Gaziantep (fictional address)",
-          "ar": "شارع غر بير رقم 41، شين بيه، غازي عنتاب (عنوان افتراضي)"
+          "ar": "شارع غوربينار رقم 41، شاهين بي، غازي عنتاب (عنوان افتراضي)"
         },
         "phone": "+90 342 023 01 03",
         "email": "masa@bahce.example",

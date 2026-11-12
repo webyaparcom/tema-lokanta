@@ -8,9 +8,9 @@
         "ar": "خدماتنا"
       },
       "description": {
-        "tr": "Ateşten soğana, soğandan tabağa.",
-        "en": "From fire to onion, from onion to plate.",
-        "ar": "من الحطب إلى البصل، ومن البصل إلى الطبق."
+        "tr": "Günün yemekleri her sabah yazılır; ızgara ve ev yemekleri bir arada.",
+        "en": "The dishes of the day are written every morning; grills and home cooking side by side.",
+        "ar": "تُكتب أطباق اليوم كل صباح؛ المشاوي والأطباق المنزلية معًا."
       },
       "path": "hizmetler",
       "icon": "work",
@@ -49,9 +49,9 @@
       },
       "pathnext": "",
       "description": {
-        "tr": "Ev yemeği ve tatlı; görseller temsilîdir.",
-        "en": "Home cooking and sweets; images are representative.",
-        "ar": "أكل منزلي وحلويات؛ الصور تمثيلية."
+        "tr": "Ev yemekleri ve odun ateşinde ızgara; görseller temsilîdir.",
+        "en": "Home cooking and wood-fire grills; images are representative.",
+        "ar": "أطباق منزلية ومشاوي على نار الحطب؛ الصور تمثيلية."
       }
     },
     {
