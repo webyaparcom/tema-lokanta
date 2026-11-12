@@ -2,14 +2,14 @@
   "order": false,
   "user": false,
   "description": {
-    "tr": "Ev yemeği ve tatlı; görseller temsilîdir.",
-    "en": "Home cooking and sweets; images are representative.",
-    "ar": "أكل منزلي وحلويات؛ الصور تمثيلية."
+    "tr": "Bahçe Lokanta: odun ateşinde ızgara, günlük ev yemekleri ve ev yapımı tatlılar; masa ayırtma. Görseller temsilîdir.",
+    "en": "Bahçe Lokanta: wood-fire grills, daily home-style dishes and house-made desserts; table bookings. Images are representative.",
+    "ar": "بهتشه لوكانتا: مشاوي على نار الحطب وأطباق منزلية يومية وحلويات بيتية؛ مع حجز الطاولات. الصور تمثيلية."
   },
   "keyword": {
-    "tr": "bahçe, lokanta, ev yemeği",
-    "en": "garden, lokanta, home cooking",
-    "ar": "حديقة، مطبخ، أكل منزلي"
+    "tr": "lokanta, ev yemeği, bahçe, ızgara, masa ayırtma",
+    "en": "restaurant, home cooking, garden, grill, table booking",
+    "ar": "مطعم، أكل منزلي، حديقة، مشاوي، حجز طاولة"
   },
   "category": "Kurumsal",
   "name": "Bahçe Lokanta",

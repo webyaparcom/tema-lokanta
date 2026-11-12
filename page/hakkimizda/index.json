@@ -21,9 +21,9 @@
   },
   "pathnext": "",
   "description": {
-    "tr": "Ev yemeği ve tatlı; görseller temsilîdir.",
-    "en": "Home cooking and sweets; images are representative.",
-    "ar": "أكل منزلي وحلويات؛ الصور تمثيلية."
+    "tr": "Ev yemekleri ve odun ateşinde ızgara; görseller temsilîdir.",
+    "en": "Home cooking and wood-fire grills; images are representative.",
+    "ar": "أطباق منزلية ومشاوي على نار الحطب؛ الصور تمثيلية."
   },
   "spot": {
     "tr": "",
@@ -42,6 +42,6 @@
     "ar": "من نحن"
   },
   "text": {},
-  "update": "2026-11-05T23:44:42.606Z",
+  "update": "2026-11-12T07:36:27.983Z",
   "date": "2026-10-30"
 }
