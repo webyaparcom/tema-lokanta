@@ -1,66 +1,126 @@
 {
   "name": {
-    "tr": "Hızlı İletişim Kartları",
-    "en": "Quick Contact Cards",
-    "ar": "بطاقات الاتصال السريع"
+    "tr": "İletişim Bilgi Paneli",
+    "en": "Contact Info Panel",
+    "ar": "لوحة معلومات الاتصال"
   },
-  "description": {
-    "tr": "3–4 hızlı eylem kartı: Ara (tel:), WhatsApp (wa.me hazır mesaj), E-posta (mailto:), Yol tarifi (harita bağlantısı). Her kart ikon + başlık + değer + eylem düğmesi; hover'da yükselir. Veri boş olan kart basılmaz; phone/email boşsa setting'den. Üç varyant (desing.stil): kartli · ikon-serit · dikey-liste. Üç dil, RTL, koyu mod token'larla.",
-    "en": "3–4 quick action cards: Call (tel:), WhatsApp (wa.me prefilled), E-mail (mailto:), Directions (map link). Each card has icon + title + value + action button; lifts on hover. Cards without data are omitted; phone/email fall back to setting. Three variants (desing.stil): kartli · ikon-serit · dikey-liste. Three languages, RTL, dark mode via tokens.",
-    "ar": "3–4 بطاقات إجراء سريع: اتصال (tel:)، واتساب (رسالة جاهزة)، بريد إلكتروني (mailto:)، الاتجاهات (رابط خريطة). كل بطاقة: أيقونة + عنوان + قيمة + زر. البطاقات بلا بيانات لا تُعرض. ثلاثة أنماط، ثلاث لغات، RTL، وضع داكن."
-  },
-  "version": "1.0.0",
-  "icon": "contact_phone",
+  "description": "Bölünmüş panel: bir yanda başlık, açıklama ve gün/saat tablosu; öbür yanda tanım listesi (dl) olarak kanal satırları — etiket, değer, eylem bağlantısı (Ara / Yaz / Haritada aç) ve «Kopyala» düğmesi (panoya kopyalar, aria-live geri bildirim). Boş satır basılmaz; phone/email boşsa setting'den.",
+  "path": "iletisim-kartlari-3",
+  "local": "body",
   "category": "contact",
-  "tags": ["iletisim", "contact", "whatsapp", "telefon", "harita", "ar"],
+  "subCategory": "bilgi-paneli",
+  "version": "1.0.0",
+  "update": "2026-11-01",
+  "icon": "contact_page",
+  "tags": [
+    "iletisim",
+    "contact",
+    "panel",
+    "saatler",
+    "kopyala",
+    "ar"
+  ],
+  "veri": {
+    "statik": true,
+    "dinamik": true,
+    "kaynak": "desing (phone, email, whatsapp, address, mapsUrl, saatler[]) + webmakerdata.setting.phone/email yedeği"
+  },
   "desing": {
     "max": "1200px",
-    "stil": "kartli",
     "bgcolor": "var(--mx-site-bg, #ffffff)",
     "textcolor": "var(--mx-site-text, #1b1b1b)",
     "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
     "surface": "var(--mx-site-surface, #f6f6f4)",
-    "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 16%, transparent)",
+    "surface2": "var(--mx-site-surface-2, #ececea)",
     "accent": "var(--mx-site-primary, #2563eb)",
     "accentText": "var(--mx-site-primary-contrast, #ffffff)",
-    "radius": "18px",
-    "title": { "tr": "Hemen Ulaşın", "en": "Reach Us Instantly", "ar": "تواصل معنا فورًا" },
-    "description": {
-      "tr": "Size en uygun kanalı seçin; mesai saatleri içinde dakikalar içinde yanıtlıyoruz.",
-      "en": "Pick the channel that suits you; we reply within minutes during working hours.",
-      "ar": "اختر القناة الأنسب لك؛ نرد خلال دقائق أثناء ساعات العمل."
+    "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 16%, transparent)",
+    "radius": "16px",
+    "title": {
+      "tr": "Başlık",
+      "en": "Heading",
+      "ar": "العنوان"
     },
-    "phone": "+90 342 000 00 00",
+    "description": {
+      "tr": "Kısa açıklama",
+      "en": "Short description",
+      "ar": "وصف قصير"
+    },
+    "phone": "",
     "whatsapp": "",
-    "email": "info@ornek.com",
+    "email": "",
     "address": {
-      "tr": "Örnek Mah. Atatürk Cad. No: 12, Gaziantep",
-      "en": "Ornek District, Ataturk Ave. No: 12, Gaziantep",
-      "ar": "حي أورنك، شارع أتاتورك رقم 12، غازي عنتاب"
+      "tr": "",
+      "en": "",
+      "ar": ""
     },
     "mapsUrl": "",
-    "waMessage": {
-      "tr": "Merhaba, web sitenizden ulaşıyorum. Bilgi almak istiyorum.",
-      "en": "Hello, I am reaching you from your website. I would like some information.",
-      "ar": "مرحبًا، أتواصل معكم من موقعكم الإلكتروني وأرغب في الحصول على معلومات."
+    "saatler": [],
+    "hoursTitle": {
+      "tr": "Çalışma saatleri",
+      "en": "Opening hours",
+      "ar": "ساعات العمل"
     },
-    "callTitle": { "tr": "Bizi Arayın", "en": "Call Us", "ar": "اتصل بنا" },
-    "callText": { "tr": "Hafta içi 09:00 – 18:00", "en": "Weekdays 09:00 – 18:00", "ar": "أيام الأسبوع 09:00 – 18:00" },
-    "callBtn": { "tr": "Ara", "en": "Call", "ar": "اتصال" },
-    "waTitle": { "tr": "WhatsApp", "en": "WhatsApp", "ar": "واتساب" },
-    "waText": { "tr": "Hızlı yanıt için yazın", "en": "Message us for a quick reply", "ar": "راسلنا للحصول على رد سريع" },
-    "waBtn": { "tr": "Mesaj gönder", "en": "Send message", "ar": "إرسال رسالة" },
-    "mailTitle": { "tr": "E-posta", "en": "E-mail", "ar": "البريد الإلكتروني" },
-    "mailText": { "tr": "Teklif ve detaylı sorular için", "en": "For quotes and detailed questions", "ar": "لعروض الأسعار والأسئلة التفصيلية" },
-    "mailBtn": { "tr": "E-posta gönder", "en": "Send e-mail", "ar": "إرسال بريد" },
-    "mapTitle": { "tr": "Yol Tarifi", "en": "Directions", "ar": "الاتجاهات" },
-    "mapBtn": { "tr": "Haritada aç", "en": "Open in maps", "ar": "فتح في الخرائط" },
-    "groupLabel": { "tr": "Hızlı iletişim kanalları", "en": "Quick contact channels", "ar": "قنوات الاتصال السريع" }
+    "phoneLabel": {
+      "tr": "Telefon",
+      "en": "Phone",
+      "ar": "الهاتف"
+    },
+    "waLabel": {
+      "tr": "WhatsApp",
+      "en": "WhatsApp",
+      "ar": "واتساب"
+    },
+    "mailLabel": {
+      "tr": "E-posta",
+      "en": "E-mail",
+      "ar": "البريد الإلكتروني"
+    },
+    "addressLabel": {
+      "tr": "Adres",
+      "en": "Address",
+      "ar": "العنوان"
+    },
+    "callAction": {
+      "tr": "Ara",
+      "en": "Call",
+      "ar": "اتصال"
+    },
+    "waAction": {
+      "tr": "Yaz",
+      "en": "Message",
+      "ar": "راسل"
+    },
+    "mailAction": {
+      "tr": "E-posta gönder",
+      "en": "Send e-mail",
+      "ar": "إرسال بريد"
+    },
+    "mapAction": {
+      "tr": "Haritada aç",
+      "en": "Open in maps",
+      "ar": "فتح في الخرائط"
+    },
+    "copyLabel": {
+      "tr": "Kopyala",
+      "en": "Copy",
+      "ar": "نسخ"
+    },
+    "copiedText": {
+      "tr": "Panoya kopyalandı",
+      "en": "Copied to clipboard",
+      "ar": "تم النسخ"
+    },
+    "newTab": {
+      "tr": "yeni sekmede açılır",
+      "en": "opens in a new tab",
+      "ar": "يفتح في علامة تبويب جديدة"
+    },
+    "emptyText": {
+      "tr": "İletişim bilgisi henüz eklenmedi.",
+      "en": "Contact details have not been added yet.",
+      "ar": "لم تتم إضافة بيانات الاتصال بعد."
+    }
   },
-  "data": [],
-  "veri": {
-    "statik": true,
-    "dinamik": false,
-    "kaynak": "desing/data"
-  }
+  "data": []
 }
